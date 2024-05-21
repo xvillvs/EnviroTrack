@@ -3,7 +3,6 @@ import './LoginRegister.css';
 import { FaUser, FaLock} from "react-icons/fa";
 import { RiCellphoneFill } from "react-icons/ri";
 
-
 const LoginRegister = () => {
 
     const [action, setAction] = useState('');
@@ -17,6 +16,7 @@ const LoginRegister = () => {
     };
 
     return (
+
         <div className={`wrapper${action}`}>
             <div className="form-box login">
                 <form action="">

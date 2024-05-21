@@ -2,7 +2,7 @@
   position: relative;
   width: 420px;
   height: 450px;
-  background-color: seagreen;
+  background: seagreen;
   border-radius: 10px;
   color: #fff;
   display: flex;
