@@ -1,0 +1,45 @@
+.envirotrack-container {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  padding: 20px;
+}
+
+.envirotrack-content {
+  flex: 1;
+  color: black;
+  padding: 20px;
+}
+
+.envirotrack-content h1 {
+  font-size: 3em;
+  color: white;
+  margin: 0;
+}
+
+.envirotrack-content p {
+  margin: 20px 0;
+}
+
+.view-more-button {
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-more-button:hover {
+  background-color: #f0f0f0;
+}
+
+.envirotrack-image {
+  flex: 1;
+  text-align: right;
+}
+
+.envirotrack-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

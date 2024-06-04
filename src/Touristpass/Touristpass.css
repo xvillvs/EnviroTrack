@@ -1,0 +1,65 @@
+.App {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .tourist-pass {
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .pass-details, .visitors-details {
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .qr-code {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .pass-details p, .visitors-details p {
+    margin: 5px 0;
+    color: black;
+  }
+  
+  .visitors-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .visitors-details th, .visitors-details td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .visitors-details th {
+    background-color: #f2f2f2;
+  }
+  
+  .cost-details {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: blue;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: seagreen;
+  }
+  
