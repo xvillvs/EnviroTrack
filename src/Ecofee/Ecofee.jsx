@@ -9,7 +9,7 @@ const App = () => {
         <img src='./public/SanJuan.jpg' alt="san juan" className="img" />
         <div className="details">
           <p><span className="label"><strong>Location:</strong></span>Batangas Province</p>
-          <p><span className="label"><strong>Environmental Fee per Person:</strong></span> ₱ 30.00</p>
+          <p><span className="label"><strong>Environmental Fee per Person:</strong> ₱ 30.00</span></p>
           <p className="description">
           San Juan, Batangas is a picturesque coastal municipality located in the province of Batangas, Philippines. Renowned for its stunning beaches, tranquil ambiance, and rich cultural heritage, San Juan offers a blend of natural beauty and historical significance.
           </p>
